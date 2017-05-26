@@ -73,5 +73,5 @@ for c in sub.columns[sub.columns != 'ParcelId']:
     sub[c] = y_test
 
 print('Writing csv ...')
-sub.to_csv('linearsvm_yo.csv', index=False, float_format='%.4f') # Thanks to @inversion
+sub.to_csv('rf_yo.csv', index=False, float_format='%.4f') # Thanks to @inversion
 print('Done')
